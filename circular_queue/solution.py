@@ -26,7 +26,7 @@ class CircularQueue:
             self.tail = 0
 
     def dequeue(self):
-        self.length -= 1;
+        self.length -= 1
         value = self.buffer[self.head]
         self.head += 1
         if self.head >= self.size:
