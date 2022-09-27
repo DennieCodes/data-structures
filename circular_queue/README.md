@@ -49,7 +49,7 @@ python -m pytest tests/test_01.py
 Once you make that test pass, run the next test file,
 _tests/test\_02.py_. Make the new test pass. Then continue
 on with the next test until you get to the last one, test
-file number 15.
+file number 9.
 
 ## All-at-once development
 
@@ -57,7 +57,7 @@ If you feel like just jumping right in, you can run this
 command.
 
 ```sh
-python -m pytest tests/test_15.py
+python -m pytest tests/test_09.py
 ```
 
 That will run all of the tests for the circular queue. Just
