@@ -51,9 +51,3 @@ class LinkedQueue:
             self.tail = newNode
 
         self.length += 1
-
-
-# queue = LinkedQueue()
-# queue.enqueue(50)
-# value = queue.dequeue()
-# print(value)
